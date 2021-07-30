@@ -11,7 +11,7 @@ node(){
       stage("Nexus Upload"){
         echo "Nexus"
           sh """
-          cd /target
+          cd target
           ls -la
           """
        // sh 'mvn deploy'
